@@ -14,3 +14,20 @@ We're going to use GitHub codespaces for coding a code execution.
 You should now have access to your own codespace with a file explorer and terminal. [More about GitHub codespaces.](https://docs.github.com/en/codespaces/getting-started/quickstart)
 
 ## Hello world
+
+Create a new file called `hello.py`.
+![](assets/1.png)
+
+Create your hello world codeblock.
+```python
+print("hello world!")
+```
+
+Execute your code in the terminal
+```bash
+@nikwl ➜ /workspaces/codespaces_test (main) $ hello.py 
+hello world!
+```
+
+Install new dependencies using `pip install`.
+![](assets/2.png)
