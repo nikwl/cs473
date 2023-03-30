@@ -23,19 +23,19 @@ python3 -m venv myenv
 We can activate a virtual environment by running the associated activation script, which is found in the `bin` directory. 
 
 ```bash
-source myenv/bin/activate
+bash-4.2$ source myenv/bin/activate
 ```
 
 The above command will work for Mac (I think) and Linux. On Windows the command is slightly different depending on the shell you're using. 
 
 Powershell: 
 ```powershell
-.\myenv\Scripts\activate.ps1
+PS C:\Users> .\myenv\Scripts\activate.ps1
 ```
 
 Command Prompt: 
 ```powershell
-.\myenv\Scripts\activate.bat
+C:\Users> .\myenv\Scripts\activate.bat
 ```
 
 Activating the virtual environment gives us access to `pip`, the python package index. You'll know if you've activated your environment because your prompt will be prepended with the name of your environment: 
@@ -49,13 +49,13 @@ Activating the virtual environment gives us access to `pip`, the python package 
 Let's install a python package with pip. 
 
 ```bash
-pip install pyjokes
+(myenv) bash-4.2$ pip install pyjokes
 ```
 
 Now we should be able to use the pyjokes package:
 ```bash
 (myenv) bash-4.2$ pyjoke
-There are II types of people: Those who understand Roman Numerals and those who don't.
+There "are II types of people: Those who understand Roman Numerals and those who don't."
 ```
 
 Use `pip list` to view what libraries you have installed.
@@ -72,7 +72,7 @@ setuptools (39.2.0)
 To create a list of installed libraries that someone else can use to recreate your environment, use the `freeze` command, and pipe the output to a file. 
 
 ```bash
-pip freeze > requirements.txt
+(myenv) bash-4.2$ pip freeze > requirements.txt
 ```
 
 ### 6) Install From a `requirements.txt` File
@@ -80,7 +80,7 @@ pip freeze > requirements.txt
 Install all of the libraries listed in a requirements file using the `-r` pip flag. 
 
 ```bash
-pip install -r requirements.txt
+(myenv) bash-4.2$ pip install -r requirements.txt
 ```
 
 ### 7) Deactivating a Virtual Environment
