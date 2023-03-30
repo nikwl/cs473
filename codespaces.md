@@ -4,9 +4,27 @@ Template code for the machine learning unit of the cs474/cs573 computer vision c
 
 ## Setup Instructions
 
-We're going to use GitHub codespaces for coding a code execution.
-1) If you don't already have one, register for a [GitHub account](https://github.com/). 
-2) Create a new private GitHub repository.
+We're going to use GitHub codespaces for coding a code execution. 
+
+### 1) Register for a GitHub account
+If you don't already have one, register for a [GitHub account](https://github.com/). 
+
+### 2) Create a new private GitHub repo
+Then create a new private GitHub repository. Click "New".
+
+![](assets/github0.png)
+
+Give it a good name. Select "Private" for visibility, and add a README file.
+
+![](assets/github1.png)
+
+### 3) Set up your dev container
+
+Once you've created the repo, open the "Code" menu, select "Codespaces", and "Configure dev container".
+
+![](assets/github2.png)
+
+
 3) Create a new codespace by visiting [this page](https://github.com/codespaces).
 4) Click "New codespace" at the top right.
 5) Create a new codespace with your private GitHub repository as the source repo. 
