@@ -48,7 +48,7 @@ f"{metadata} {index}_{label}.png"
 
 For example, an image named "Image00001 100_0.png" would have a class label of "0".
 
-[LINK TO DATA.](https://drive.google.com/file/d/1zDci_KK8FEiln1bNCX4zlD8FUsTlH5XA/view?usp=sharing)
+[This link](https://drive.google.com/file/d/1zDci_KK8FEiln1bNCX4zlD8FUsTlH5XA/view?usp=sharing) will allow you to download the data (if you're using your machine) or add the data file to your google drive (if you're using Colab).
 
 ### Mounting the Google Drive Folder
 
