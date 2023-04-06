@@ -22,9 +22,9 @@ For this assignment, you will train a performant CNN-based classifier on CIFAR-1
 
 Your submission should be a zip file that contains:
 
-1) Code for training and testing your network. Code can be distributed over multiple files or contained in a single file. The file(s) must be a python script, i.e. a `something.py` file. You can generate a python script from a Colab notebook by going to `File > Download > Download .py`.
-2) Your trained model file, named `model.pt`.
-3) A pdf or markdown (`.md`) report explaining the following:
+1) [40%] Code for training and testing your network. Code can be distributed over multiple files or contained in a single file. The file(s) must be a python script, i.e. a `something.py` file. You can generate a python script from a Colab notebook by going to `File > Download > Download .py`.
+2) [10%] Your trained model file, named `model.pt`.
+3) [50%] A pdf or markdown (`.md`) report explaining the following:
     - How you split the data into train and validation sets.
     - Which variables you tested and what their impact on performance was.
     - A summary of your final network configuration and its accuracy on the validation set (best configuration of variables).
@@ -62,7 +62,7 @@ print(os.listdir('/content/drive/MyDrive'))
 
 ### Data preparation
 
-Once you load the data, you need to split the data into a train and validation set. How you do this is up to you. Use your validation set to evaluate your choice of network structure and hyperparamters. I would suggest an 80%/20% train/validation split. I have a secret test set that I will use to evaluate your submitted model.
+Once you load the data, you need to split the data into a train and validation set. How you do this is up to you. Use your validation set to evaluate your choice of network structure and hyperparamters. I would suggest an 80%/20% train/validation split. I have a separate test set that I will use to evaluate your submitted model.
 
 NOTE: The data is structured such that if you just load it and start training, your loss is unlikely to converge. If you're encountering this problem, visualize the data and labels and see if you notice a pattern that might hinder convergence.
 
