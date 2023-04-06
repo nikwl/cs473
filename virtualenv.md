@@ -23,19 +23,19 @@ python3 -m venv myenv
 We can activate a virtual environment by running the associated activation script, which is found in the `bin` directory. 
 
 ```bash
-bash-4.2$ source myenv/bin/activate
+source myenv/bin/activate
 ```
 
 The above command will work for Mac (I think) and Linux. On Windows the command is slightly different depending on the shell you're using. 
 
 Powershell: 
 ```powershell
-PS C:\Users> .\myenv\Scripts\activate.ps1
+.\myenv\Scripts\activate.ps1
 ```
 
 Command Prompt: 
-```powershell
-C:\Users> .\myenv\Scripts\activate.bat
+```cmd
+.\myenv\Scripts\activate.bat
 ```
 
 Activating the virtual environment gives us access to `pip`, the python package index. You'll know if you've activated your environment because your prompt will be prepended with the name of your environment: 
@@ -49,19 +49,19 @@ Activating the virtual environment gives us access to `pip`, the python package 
 Let's install a python package with pip. 
 
 ```bash
-(myenv) bash-4.2$ pip install pyjokes
+pip install pyjokes
 ```
 
 Now we should be able to use the pyjokes package:
 ```bash
-(myenv) bash-4.2$ pyjoke
+pyjoke
 There "are II types of people: Those who understand Roman Numerals and those who don't."
 ```
 
 Use `pip list` to view what libraries you have installed.
 
 ```bash
-(myenv) bash-4.2$ pip list
+pip list
 pip (9.0.3)
 pyjokes (0.6.0)
 setuptools (39.2.0)
@@ -72,7 +72,7 @@ setuptools (39.2.0)
 To create a list of installed libraries that someone else can use to recreate your environment, use the `freeze` command, and pipe the output to a file. 
 
 ```bash
-(myenv) bash-4.2$ pip freeze > requirements.txt
+pip freeze > requirements.txt
 ```
 
 ### 6) Install From a `requirements.txt` File
@@ -80,7 +80,7 @@ To create a list of installed libraries that someone else can use to recreate yo
 Install all of the libraries listed in a requirements file using the `-r` pip flag. 
 
 ```bash
-(myenv) bash-4.2$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 7) Deactivating a Virtual Environment
