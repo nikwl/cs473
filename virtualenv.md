@@ -23,7 +23,7 @@ sudo apt install python3
 
 In **Linux**, python can be accessed using the `python` command. Append the version number to use a specific version of python, e.g. `python3.8`.
 
-In **Windows**, python can be accessed using the `py` command. Append the version number as a flag to use a specific version of python, e.g. `py -p 3.8`.
+In **Windows**, python can be accessed using the `py` command. Append the version number as a flag to use a specific version of python, e.g. `py -3.8`.
 
 ### 2) Creating a Virtual Environment
 
