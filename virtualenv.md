@@ -6,16 +6,37 @@ Or more generally, what if you want to install an application and leave it be? I
 
 In all these cases, virtualenv can help you. It creates an environment that has its own installation directories, that doesn’t share libraries with other virtualenv environments (and optionally doesn’t access the globally installed libraries either).
 
-### 1) Remove Development Over SSH
+### 0) Remove Development Over SSH
 
 Follow [this tutorial](https://code.visualstudio.com/docs/remote/ssh-tutorial) to start coding over SSH. Most of the guide focuses on setting up a VM with SSH, you can skip that part and just connect to Polaris.
 
+### 1) Installing Python
+
+Windows: Visit [this link](https://www.python.org/) to install the latest version of python. 
+
+Linux: If you're using Ubuntu20.04 or later you likely already have python installed. If you don't, install it with
+```bash
+sudo apt install python3
+```
+
+### 1.5) A Note About Windows and Linux Versions of Python
+
+In linux, python can be accessed using the `python` command. Append the version number to use a specific version of python, e.g. `python3.8`.
+
+In windows, python can be accessed using the `py` command. Append the version number as a flag to use a specific version of python, e.g. `py -p 3.8`.
+
 ### 2) Creating a Virtual Environment
 
-To create a virtual environment, invoke the `venv` module using python3, and pass it the name of your environment. In the below example, we create a new virtual environment called "myenv":
+To create a virtual environment, invoke the `venv` module using python, and pass it the name of your environment. In the below example, we create a new virtual environment called "myenv".
 
+Linux:
 ```bash
 python3 -m venv myenv
+```
+
+Windows: 
+```powershell
+py -m venv myenv
 ```
 
 ### 3) Activating a Virtual Environment
