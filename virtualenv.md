@@ -21,9 +21,9 @@ sudo apt install python3
 
 ### 1.5) A Note About Windows and Linux Versions of Python
 
-In linux, python can be accessed using the `python` command. Append the version number to use a specific version of python, e.g. `python3.8`.
+In **Linux**, python can be accessed using the `python` command. Append the version number to use a specific version of python, e.g. `python3.8`.
 
-In windows, python can be accessed using the `py` command. Append the version number as a flag to use a specific version of python, e.g. `py -p 3.8`.
+In **Windows**, python can be accessed using the `py` command. Append the version number as a flag to use a specific version of python, e.g. `py -p 3.8`.
 
 ### 2) Creating a Virtual Environment
 
@@ -57,6 +57,11 @@ Powershell:
 Command Prompt: 
 ```cmd
 .\myenv\Scripts\activate.bat
+```
+
+Note for **Windows**: If you're using powershell and get the error that `running scripts is disabled on this system`, enable script running with the below command: 
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 Activating the virtual environment gives us access to `pip`, the python package index. You'll know if you've activated your environment because your prompt will be prepended with the name of your environment: 
