@@ -4,7 +4,7 @@ Homework assignment for the deep learning section of Computer Vision.
 
 See also the tutorials on [virtualenv](virtualenv.md) and [codespaces](codespaces.md).
 
-A link to the [demo data](https://drive.google.com/file/d/1NvDWfcENoPxup1EJpSmZY6vSicwUaNlv/view?usp=sharing) I used in class.
+A link to the [demo data](https://drive.google.com/file/d/1NvDWfcENoPxup1EJpSmZY6vSicwUaNlv/view?usp=sharing) I used in class, and some very short [notes](networks.md).
 
 ## Overview
 
