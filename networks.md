@@ -38,3 +38,12 @@ We our going to train our network for a set number of `epochs`. The training loo
 2) Passing the data through the network to get a prediction.
 3) Computing the loss.
 4) Performing backpropogation.
+
+## 4) Additions
+- Testing Loop
+- Additional Metrics
+- Loss Logging
+- Loss Plotting
+- Model Saving and Loading
+- Model Resuming
+- Passing Specifications
