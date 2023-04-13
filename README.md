@@ -4,6 +4,8 @@ Homework assignment for the deep learning section of Computer Vision.
 
 See also the tutorials on [virtualenv](virtualenv.md) and [codespaces](codespaces.md).
 
+A link to the [demo data](https://drive.google.com/file/d/1NvDWfcENoPxup1EJpSmZY6vSicwUaNlv/view?usp=sharing) I used in class.
+
 ## Overview
 
 For this assignment, you will explore creating a deep neural network for classification of CIFAR-10. Deep convolutional neural networks (CNNs) are increasingly used for a variety of tasks, from biometric authentication to image-to-text recognition. Widespread interest has driven the creation of machine learning libraries that make creating new CNNs accessible, even with minimal coding experience. For this project we will use `pytorch` to design, train, and evaluate a CNN to perform a simple classification task on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html). 
