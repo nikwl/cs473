@@ -41,9 +41,12 @@ We our going to train our network for a set number of `epochs`. The training loo
 
 ## 4) Additions
 - Testing Loop
-- Additional Metrics
+- Visualization of outputs
 - Loss Logging
 - Loss Plotting
+- Accuracy
+- Image normalization   
 - Model Saving and Loading
 - Model Resuming
+- Using the gpu
 - Passing Specifications
