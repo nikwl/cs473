@@ -45,7 +45,7 @@ Your submission should be a zip file that contains:
 You'll be provided with a copy of the dataset in a single pkl file, uploaded to google drive. The dataset contains 48,000 images and 48,000 filenames. The image labels need to be extracted from the filenames. The filenames contain some metadata, a monotonically increasing index, and the class that the image belongs to (the label). The metadata, index, and label are separated by an underscore, i.e. the filenames are specified as:
 
 ```python
-f"{metadata} {index}_{label}.png"
+f"{metadata}_{label}.png"
 ```
 
 For example, an image named "Image00001 100_0.png" would have a class label of "0".
